@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import test from './components/Aspect Radio/1.basic'
+import test from './components/Styling/1.style-handles-with-slot'
 
 export default {
   name: 'app',
