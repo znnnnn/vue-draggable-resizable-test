@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import test from './components/Grid/2.20x40.vue'
+import test from './components/Aspect Radio/1.basic'
 
 export default {
   name: 'app',
