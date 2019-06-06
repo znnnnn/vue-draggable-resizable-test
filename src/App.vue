@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <div style="height: 500px; width: 500px; border: 1px solid red; position: relative;">
+    <div class="container">
       <test></test>
     </div>
   </div>
 </template>
 
 <script>
-import test from './components/Events/Resizing'
+import test from './components/Grid/2.20x40.vue'
 
 export default {
   name: 'app',
@@ -24,7 +24,18 @@ export default {
 </script>
 
 <style>
-.vdr {
-  border: 1px dashed black;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 2px solid #000;
+  width: 1000px;
+  height: 500px;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px)
+      20px 200px / 20px 20px,
+    linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px) 0% 0% / 20px 20px;
 }
 </style>
